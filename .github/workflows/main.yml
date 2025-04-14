@@ -28,6 +28,10 @@ jobs:
         pip install gym
         pip install -r requirements.txt
 
+    - name: 3. Download n-tuple weights
+      run: |
+        gdown "https://drive.google.com/uc?id=1bRPeyEwSQs6_h3XCWES4vOYO3Xt9f8sR" -O ./2048_300000.bin
+
     - name: 3. Ensure env.so is executable
       run: chmod +x env.cpython-38-x86_64-linux-gnu.so
 

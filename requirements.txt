@@ -3,3 +3,6 @@ requests
 argparse
 torch
 matplotlib
+gdown
+numba
+gym

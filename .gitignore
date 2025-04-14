@@ -7,3 +7,5 @@ __pycache__/
 
 # ignore eval.py
 eval.py
+
+2048_300000.bin
